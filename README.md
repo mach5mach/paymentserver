@@ -32,6 +32,11 @@ When running the paymentserver as part of a docker-compose network, you can supp
 	"lnbits_admin_key": "[admin key]"
 }
 ```
+In the .env file, the file path to the docker secrets file needs to be present
+
+```
+SECRETS=[file path to secrets run time file]
+```
   
 # Usage
 Run as either a standalone docker image or as part of a docker-compose network
