@@ -62,8 +62,6 @@ app.use(
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true }));
 
-app.use('/static', express.static('node_modules'));
-
 app.use((req, res, next) => {
 	res.setHeader('Access-Control-Allow-Origin', '*');//`http://${hostname}:${port}/`);
 	res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
