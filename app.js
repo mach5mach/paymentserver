@@ -30,10 +30,6 @@ if(filename)
 		lnbitsAPI_admin_key = obj.lnbits_admin_key ?? lnbitsAPI_admin_key;
 	}
 }		
-  
-console.log(lnbitsAPI_tor_domain);
-console.log(lnbitsAPI_invoice_key);
-console.log(lnbitsAPI_admin_key);
 
 var tor_domain = '';
 var tor_port = port;
